@@ -5,7 +5,7 @@ function updateTime() {
 }
 setInterval(updateTime, 1000); // 每秒更新一次
 
-// 獲取69X站的 ETA
+// 獲取69M站的 ETA
 async function fetchBusETA() {
     const stopId = 'DA4C00397F6B56EC'; 
     const route = '69M';
