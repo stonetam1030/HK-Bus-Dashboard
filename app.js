@@ -8,8 +8,8 @@ setInterval(updateTime, 1000); // 每秒更新一次
 // 範例：獲取某個站點的 ETA
 async function fetchBusETA() {
     // 這裡需要替換為你實際查詢到的 站點ID (stop_id) 和 路線 (route)
-    const stopId = 'YOUR_STOP_ID'; 
-    const route = '38';
+    const stopId = 'HIGH SPEED RAIL WEST KOWLOON STATION'; 
+    const route = '69X';
     
     try {
         const response = await fetch(`https://data.etabus.gov.hk/v1/transport/kmb/eta/${HIGH SPEED RAIL WEST KOWLOON STATION}/${69X}/1`);
