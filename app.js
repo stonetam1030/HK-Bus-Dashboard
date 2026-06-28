@@ -1,3 +1,4 @@
+console.log("App is running!");
 function updateTime() {
     const now = new Date();
     // 將時間格式化為 YYYY/MM/DD HH:MM AM/PM 格式
